@@ -7,10 +7,10 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   const [partyTime, setPartyTime] = useState(false);
-  const [days, setDays] = useState('');
-  const [hours, setHours] = useState('');
-  const [minutes, setMinutes] = useState('');
-  const [seconds, setSeconds] = useState('');
+  const [days, setDays] = useState("");
+  const [hours, setHours] = useState("");
+  const [minutes, setMinutes] = useState("");
+  const [seconds, setSeconds] = useState("");
 
   useEffect(() => {
     const target = new Date("12/31/2022 23:59:59");
